@@ -3,8 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'MGTestOne_Example' do
-  pod 'MGTestOne', :path => '../'
-
+  pod 'MGTestOne'
   target 'MGTestOne_Tests' do
     inherit! :search_paths
 
